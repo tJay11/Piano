@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+}
+
+.paino {
+    display: flex;
+    position: relative;
+}
+
+.whitekey {
+    width: 40px;
+    height: 120px;
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    outline: none;
+    margin-left: -4px;
+}
+
+.whitekey:active {
+    background-color: rgb(165, 165, 165);
+}
+
+.blackkey {
+    position: absolute;
+    width: 22px;
+    height: 83px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0 0 3px 3px;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.535));
+    border: 3px solid black;
+}
+
+.blackkey:active {
+    background-image: linear-gradient(rgb(9, 9, 9), black);
+}
+
+
+.Db4 {
+    left: 22px;
+}
+.Eb4 {
+    left: 58px;
+}
+.Gb4 {
+    left: 130px;
+}
+.Ab4 {
+    left: 166px;
+}
+.Bb4 {
+    left: 202px;
+}
+.Db5 {
+    left: 274px;
+}
+.Eb5 {
+    left: 310px;
+}
